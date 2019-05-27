@@ -1,0 +1,87 @@
+body {
+	text-align: center;
+	margin: 0;
+	text-decoration: none;
+}
+header {
+	background-color: #F15B31;
+	color: #FFFFFF;
+	padding: 30px 20px;
+}
+h1 {
+	font-family: raleway, sans-serif;
+	font-weight: 400;
+	font-size: 45px;
+	letter-spacing: 1px;
+	margin: 0;
+}
+h1, h2, h5, nav, footer {
+	text-transform: uppercase;
+}
+nav {
+	background-color: #00A6B3;
+	color: #FFFFFF;
+	padding: 20px 0;
+}
+nav a {
+	font-family: raleway, sans-serif;
+	color: #FFFFFF;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 18px;
+	margin: 0 20px;
+	text-decoration: none;
+}
+main {
+	width: 850px;
+	margin: 35px auto;
+}
+h2 {
+	font-family: raleway, sans-serif;
+	color: #0D2C40;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 20px;
+}
+img {
+	margin: 40px 8px;
+}
+p {
+	font-family: "droid serif", serif;
+	line-height: 26px;
+	font-size: 18px;
+}
+footer {
+	font-family: "droid serif", serif;
+	font-size: 10px;
+	font-weight: 500;
+	background-color: #0D2C40;
+	color: #FFFFFF;
+	letter-spacing: 0.08em;
+	text-decoration: none;
+	padding: 0 20px;
+}
+.copyright {
+	float: left;
+}
+.message {
+	float: right;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.name {
+font-weight: 700px;
+color: #F15B31;
+}
+a {
+	border-bottom: 2px solid transparent;
+}
+a:hover {
+	color: #000000;
+}
